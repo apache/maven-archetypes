@@ -55,6 +55,10 @@ under the License.
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles</developerConnection>
     <url>http://svn.apache.org/viewvc/maven/archetype/trunk/maven-archetype-bundles</url>
   </scm>
+  <issueManagement>
+    <system>jira</system>
+    <url>http://jira.codehaus.org/browse/MARCHETYPES</url>
+  </issueManagement>
 
   <build>
     <extensions>
