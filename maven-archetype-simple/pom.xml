@@ -19,31 +19,23 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
     <artifactId>maven-archetype-bundles</artifactId>
     <groupId>org.apache.maven.archetypes</groupId>
-    <version>4</version>
+    <version>5-SNAPSHOT</version>
   </parent>
 
   <artifactId>maven-archetype-simple</artifactId>
-  <version>1.1-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Maven Simple Project Archetype</name>
   <description>
     An archetype which contains a simple Maven project.
   </description>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-simple</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-simple</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-simple</url>
-  </scm>
 
   <dependencies>
     <dependency>

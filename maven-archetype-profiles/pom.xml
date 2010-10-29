@@ -26,21 +26,14 @@ under the License.
   <parent>
     <artifactId>maven-archetype-bundles</artifactId>
     <groupId>org.apache.maven.archetypes</groupId>
-    <version>4</version>
+    <version>5-SNAPSHOT</version>
   </parent>
 
   <artifactId>maven-archetype-profiles</artifactId>
-  <version>1.0-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Maven Profiles Archetype</name>
   <description>
     An archetype which contains a sample Maven project which demonstrates the use of profiles.
   </description>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-profiles</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-profiles</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-profiles</url>
-  </scm>
 </project>
