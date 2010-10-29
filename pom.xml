@@ -25,21 +25,14 @@ under the License.
   <parent>
     <artifactId>maven-archetype-bundles</artifactId>
     <groupId>org.apache.maven.archetypes</groupId>
-    <version>4</version>
+    <version>5-SNAPSHOT</version>
   </parent>
 
   <artifactId>maven-archetype-plugin</artifactId>
-  <version>1.2-SNAPSHOT</version>
   <packaging>maven-archetype</packaging>
 
   <name>Maven Plugin Archetype</name>
   <description>
     An archetype which contains a sample Maven plugin.
   </description>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-plugin</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-plugin</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetype/trunk/maven-archetype-bundles/maven-archetype-plugin</url>
-  </scm>
 </project>
