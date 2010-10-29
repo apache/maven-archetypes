@@ -51,9 +51,9 @@ under the License.
   </modules>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetype/trunk/maven-archetype-bundles</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetype/trunk/maven-archetype-bundles</url>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk</url>
   </scm>
   <issueManagement>
     <system>jira</system>
