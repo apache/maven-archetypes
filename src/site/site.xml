@@ -25,5 +25,7 @@ under the License.
     <breadcrumbs>
       <item name="Archetypes" href="http://maven.apache.org/archetype/maven-archetype-bundles/index.html" />
     </breadcrumbs>
+
+    <menu ref="parent" inherit="top" />
   </body>
 </project>
