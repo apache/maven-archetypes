@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven.archetype</groupId>
     <artifactId>maven-archetype</artifactId>
-    <version>2.1</version>
+    <version>2.2-SNAPSHOT</version>
   </parent>
 
   <groupId>org.apache.maven.archetypes</groupId>
@@ -77,6 +77,39 @@ under the License.
         </plugin>
       </plugins>
     </pluginManagement>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.rat</groupId>
+        <artifactId>apache-rat-plugin</artifactId>
+        <configuration>
+          <excludes>
+            <exclude>.gitignore</exclude>
+            <exclude>DEPENDENCIES</exclude>
+            <exclude>README.txt</exclude>
+            <exclude>*.sh</exclude>
+            <exclude>.git/**</exclude>
+            <exclude>.idea/**</exclude>
+            <exclude>**/generated-sources/**</exclude>
+            <exclude>**/.gitattributes</exclude>
+            <!-- disable test directories -->
+            <exclude>src/test/**</exclude>
+            <exclude>src/it/**</exclude>
+            <exclude>.repository/**</exclude><!-- for CI -->
+            <exclude>**/archetype-resources/**</exclude>
+            <exclude>**/archetype-resources/**</exclude>
+          </excludes>
+        </configuration>
+        <executions>
+          <execution>
+            <id>rat-check</id>
+            <goals>
+              <goal>check</goal>
+            </goals>
+            <phase>verify</phase>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
   </build>
 
   <repositories>
