@@ -1,5 +1,5 @@
  ------
- Maven Webapp Archetype
+ ${project.name}
  ------
  Hervé Boutemy
  ------
@@ -26,9 +26,9 @@
 ~~ NOTE: For help with the syntax of this file, see:
 ~~ http://maven.apache.org/guides/mini/guide-apt-format.html
 
-Maven Webapp Archetype
+${project.name}
 
- <<<maven-archetype-webapp>>> is an archetype which contains a sample Maven webapp project:
+ <<<${project.artifactId}>>> is an archetype which contains a sample Maven webapp project:
 
 +----+
 
@@ -40,5 +40,15 @@ project
             |-- WEB-INF
             |   `-- web.xml
             `-- index.jsp
+
++----+
+
+* Usage
+
+ To create a new project from this archetype, type:
+
++----+
+
+mvn archetype:generate -DarchetypeGroupId=${project.groupId} -DarchetypeArtifactId=${project.artifactId} -DarchetypeVersion=${project.version}
 
 +----+
