@@ -37,10 +37,12 @@ project
 `-- src
     |-- main
     |   `-- java
-    |       `-- App.java
+    |       `-- $package
+    |           `-- App.java
     `-- test
         `-- java
-            `-- AppTest.java
+    |       `-- $package
+                `-- AppTest.java
 
 +----+
 
