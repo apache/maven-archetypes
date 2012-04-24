@@ -37,7 +37,8 @@ project
 `-- src
     `-- main
         `-- java
-            `-- MyMojo.java
+            `-- $package
+                `-- MyMojo.java
 
 +----+
 
