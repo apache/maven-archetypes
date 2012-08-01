@@ -26,6 +26,7 @@ under the License.
     <artifactId>maven-archetype-bundles</artifactId>
     <groupId>org.apache.maven.archetypes</groupId>
     <version>5-SNAPSHOT</version>
+    <relativePath>../maven-archetype-parent</relativePath>
   </parent>
 
   <artifactId>maven-archetype-quickstart</artifactId>
