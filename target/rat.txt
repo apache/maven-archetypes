@@ -1,0 +1,37 @@
+
+*****************************************************
+Summary
+-------
+Notes: 0
+Binaries: 0
+Archives: 0
+Standards: 1
+
+Apache Licensed: 1
+Generated Documents: 0
+
+JavaDocs are generated and so license header is optional
+Generated files do not required license headers
+
+0 Unknown Licenses
+
+*******************************
+
+Unapproved licenses:
+
+
+*******************************
+
+Archives:
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require AL headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc will be marked N
+  AL    /Users/olamy/dev/sources/maven/archetypes/maven-archetype-parent/pom.xml
+ 
+ *****************************************************
+ Printing headers for files without AL header...
+ 
+ 
