@@ -36,4 +36,11 @@ under the License.
   <description>
     An archetype which contains a sample Maven site.
   </description>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-site-simple</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-site-simple</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-site-simple</url>
+  </scm>
+
 </project>

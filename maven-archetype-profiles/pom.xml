@@ -37,4 +37,11 @@ under the License.
   <description>
     An archetype which contains a sample Maven project which demonstrates the use of profiles.
   </description>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-profiles</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-profiles</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-profiles</url>
+  </scm>
+
 </project>

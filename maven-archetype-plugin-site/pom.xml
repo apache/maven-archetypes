@@ -37,4 +37,11 @@ under the License.
     An archetype which contains a sample Maven plugin site. This archetype can be layered upon an
     existing Maven plugin project.
   </description>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-plugin-site</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-plugin-site</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-plugin-site</url>
+  </scm>
+
 </project>

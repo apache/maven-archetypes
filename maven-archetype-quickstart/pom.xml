@@ -37,6 +37,12 @@ under the License.
     An archetype which contains a sample Maven project.
   </description>
 
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-quickstart</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-quickstart</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-quickstart</url>
+  </scm>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

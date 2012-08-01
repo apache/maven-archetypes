@@ -37,4 +37,11 @@ under the License.
   <description>
     An archetype which contains a sample JSR-268 Portlet.
   </description>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-portlet</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-portlet</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-portlet</url>
+  </scm>
+
 </project>

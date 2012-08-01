@@ -39,6 +39,12 @@ under the License.
     upon an existing Maven project.
   </description>
 
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-site</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-site</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-site</url>
+  </scm>
+
   <build>
     <plugins>
       <plugin>

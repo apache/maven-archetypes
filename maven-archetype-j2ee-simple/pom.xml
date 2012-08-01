@@ -37,4 +37,11 @@ under the License.
   <description>
     An archetype which contains a simplified sample J2EE application.
   </description>
+
+  <scm>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-j2ee-simple</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-j2ee-simple</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-j2ee-simple</url>
+  </scm>
+
 </project>
