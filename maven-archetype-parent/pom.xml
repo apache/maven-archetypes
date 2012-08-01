@@ -26,6 +26,7 @@ under the License.
     <groupId>org.apache.maven.archetype</groupId>
     <artifactId>maven-archetype</artifactId>
     <version>2.2</version>
+    <relativePath></relativePath>
   </parent>
 
   <groupId>org.apache.maven.archetypes</groupId>
