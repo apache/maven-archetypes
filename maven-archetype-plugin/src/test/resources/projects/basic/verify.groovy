@@ -21,6 +21,7 @@ def parameter = mojo.parameters.parameter.findAll{ it.name.text() == "outputDire
 
 assert parameter.name.text() == 'outputDirectory'
 assert parameter.type.text() == 'java.io.File'
+assert parameter.required.text() == 'true'
 assert parameter.description.text() == 'Location of the file.'
 
 
