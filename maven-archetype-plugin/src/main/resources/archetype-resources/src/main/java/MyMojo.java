@@ -33,14 +33,14 @@ import java.io.IOException;
  *
  * @deprecated Don't use!
  */
-@Mojo(name="touch",defaultPhase = LifecyclePhase.PROCESS_SOURCES)
+@Mojo( name = "touch", defaultPhase = LifecyclePhase.PROCESS_SOURCES )
 public class MyMojo
     extends AbstractMojo
 {
     /**
      * Location of the file.
      */
-    @Parameter(defaultValue="${project.build.directory}",property="outputDir",required=true)
+    @Parameter( defaultValue = "${project.build.directory}", property = "outputDir", required = true )
     private File outputDirectory;
 
     public void execute()
