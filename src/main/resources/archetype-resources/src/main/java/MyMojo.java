@@ -29,13 +29,15 @@ import java.io.IOException;
  * @goal touch
  * 
  * @phase process-sources
+ *
+ * @deprecated Don't use!
  */
 public class MyMojo
     extends AbstractMojo
 {
     /**
      * Location of the file.
-     * @parameter expression="${project.build.directory}"
+     * @parameter default-value="${project.build.directory}" expression="${outputDir}"
      * @required
      */
     private File outputDirectory;
