@@ -32,6 +32,7 @@ under the License.
 
   <artifactId>maven-archetype-webapp</artifactId>
   <packaging>maven-archetype</packaging>
+  <version>1.1-SNAPSHOT</version>
 
   <name>Maven Webapp Archetype</name>
   <description>
