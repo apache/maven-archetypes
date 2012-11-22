@@ -13,4 +13,22 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>@pom.groupId@</groupId>
+        <artifactId>@pom.artifactId@</artifactId>
+        <version>@pom.version@</version>
+        <executions>
+          <execution>
+            <phase>validate</phase>
+            <goals>
+              <goal>touch</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+    </plugins>
+  </build>
+
 </project>
