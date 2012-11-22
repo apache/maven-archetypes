@@ -83,7 +83,6 @@ under the License.
             <exclude>src/it/**</exclude>
             <exclude>.repository/**</exclude><!-- for CI -->
             <exclude>**/archetype-resources/**</exclude>
-            <exclude>**/archetype-resources/**</exclude>
           </excludes>
         </configuration>
         <executions>
