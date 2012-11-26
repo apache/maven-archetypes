@@ -31,16 +31,16 @@ under the License.
 
   <groupId>org.apache.maven.archetypes</groupId>
   <artifactId>maven-archetype-bundles</artifactId>
-  <version>5</version>
+  <version>6-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Maven Archetypes</name>
   <description>Archetypes provided by Maven.</description>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/tags/maven-archetype-bundles-5</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/tags/maven-archetype-bundles-5</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetypes/tags/maven-archetype-bundles-5</url>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-parent</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-parent</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-parent</url>
   </scm>
   <issueManagement>
     <system>jira</system>
