@@ -8,6 +8,8 @@
   <packaging>maven-plugin</packaging>
 
   <name>${artifactId} Maven Plugin</name>
+
+  <!-- FIXME change it to your own web site -->
   <url>http://maven.apache.org</url>
 
   <properties>

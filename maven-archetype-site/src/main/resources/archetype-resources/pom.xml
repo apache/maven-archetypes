@@ -7,6 +7,7 @@
   <version>${version}</version>
 
   <name>Maven</name>
+  <!-- FIXME change it to your own web site -->
   <url>http://maven.apache.org/</url>
   <inceptionYear>2001</inceptionYear>
 

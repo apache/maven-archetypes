@@ -8,6 +8,8 @@
   <packaging>maven-archetype</packaging>
 
   <name>Archetype - ${artifactId}</name>
+
+  <!-- FIXME change it to your own web site -->
   <url>http://maven.apache.org</url>
 
   <properties>
