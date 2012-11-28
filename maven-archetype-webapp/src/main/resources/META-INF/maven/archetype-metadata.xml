@@ -28,4 +28,9 @@ under the License.
       <directory>src/main/webapp</directory>
     </fileSet>
   </fileSets>
+  <requiredProperties>
+    <requiredProperty key="url">
+      <defaultValue>http://www.example.com/</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>
