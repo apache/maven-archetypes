@@ -30,8 +30,6 @@ import java.io.IOException;
 
 /**
  * Goal which touches a timestamp file.
- *
- * @deprecated Don't use!
  */
 @Mojo( name = "touch", defaultPhase = LifecyclePhase.PROCESS_SOURCES )
 public class MyMojo
