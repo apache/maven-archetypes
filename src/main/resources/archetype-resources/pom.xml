@@ -8,6 +8,8 @@
   <packaging>maven-plugin</packaging>
 
   <name>${artifactId} Maven Plugin</name>
+
+  <!-- FIXME change it to the project's website -->
   <url>http://maven.apache.org</url>
 
   <properties>
@@ -78,7 +80,6 @@
             <version>1.7</version>
             <configuration>
               <debug>true</debug>
-              <projectsDirectory>src/it</projectsDirectory>
               <cloneProjectsTo>${project.build.directory}/it</cloneProjectsTo>
               <pomIncludes>
                 <pomInclude>*/pom.xml</pomInclude>
