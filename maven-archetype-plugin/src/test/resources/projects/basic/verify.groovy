@@ -1,4 +1,3 @@
-System.out.println("basedir:"+basedir);
 File descriptorFile = new File( basedir, "project/basic-plugin/target/classes/META-INF/maven/plugin.xml" );
 assert descriptorFile.isFile()
 
@@ -10,7 +9,6 @@ assert mojo.goal.text() == 'touch'
 assert mojo.implementation.text() == 'it.pkg.plugin.MyMojo'
 assert mojo.language.text() == 'java'
 assert mojo.description.text() == 'Goal which touches a timestamp file.'
-assert mojo.deprecated.text() == "Don't use!"
 assert mojo.phase.text() == 'process-sources'
 
 assert mojo.configuration.outputDirectory[0].text() == '${outputDir}'
