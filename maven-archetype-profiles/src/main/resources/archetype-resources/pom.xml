@@ -5,7 +5,6 @@
   <groupId>${groupId}</groupId>
   <artifactId>${artifactId}</artifactId>
   <version>${version}</version>
-  <packaging>jar</packaging>
 
   <name>Maven Quick Start Archetype</name>
   <!-- FIXME change it to the project's website -->
