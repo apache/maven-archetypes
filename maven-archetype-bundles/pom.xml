@@ -38,9 +38,9 @@ under the License.
   <description>Archetypes provided by Maven.</description>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-parent</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-parent</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-parent</url>
+    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-bundles</connection>
+    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-bundles</developerConnection>
+    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-bundles</url>
   </scm>
   <issueManagement>
     <system>jira</system>
