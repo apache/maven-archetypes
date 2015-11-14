@@ -27,7 +27,7 @@ under the License.
     <artifactId>maven-archetype-bundles</artifactId>
     <groupId>org.apache.maven.archetypes</groupId>
     <version>5</version>
-    <relativePath>../maven-archetype-bundles</relativePath>
+    <relativePath>../../pom/maven/maven-archetype-bundles</relativePath>
   </parent>
 
   <artifactId>maven-archetype-webapp</artifactId>
