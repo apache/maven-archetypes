@@ -37,7 +37,6 @@ under the License.
   <description>Archetypes provided by Maven.</description>
 
   <modules>
-    <module>maven-archetype-bundles</module>
     <module>maven-archetype-archetype</module>
     <module>maven-archetype-j2ee-simple</module>
     <module>maven-archetype-plugin</module>
