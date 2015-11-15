@@ -50,18 +50,7 @@ under the License.
     <module>maven-archetype-webapp</module>
   </modules>
 
-  <repositories>
-    <repository>
-      <id>apache.snapshots</id>
-      <name>Apache Snapshot Repository</name>
-      <url>http://repository.apache.org/snapshots</url>
-      <releases>
-        <enabled>false</enabled>
-      </releases>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-  </repositories>
-
+  <properties>
+    <rat.skip>true</rat.skip>
+  </properties>
 </project>
