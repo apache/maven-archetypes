@@ -45,6 +45,12 @@ under the License.
     <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-site</developerConnection>
     <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-site</url>
   </scm>
+  <distributionManagement>
+    <site>
+      <id>apache.website</id>
+      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/archetypes-archives/</url>
+    </site>
+  </distributionManagement>
 
   <build>
     <plugins>
