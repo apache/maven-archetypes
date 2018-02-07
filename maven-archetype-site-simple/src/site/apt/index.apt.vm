@@ -28,7 +28,7 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which contains a sample Maven simple site:
+ <<<${project.artifactId}>>> is an archetype which generates a sample Maven simple site:
 
 +----+
 
@@ -46,7 +46,7 @@ project
 
 * Usage
 
- To create a new project or update an existing project from this archetype, type:
+ To generate a new project or update an existing project from this archetype, type:
 
 +----+
 

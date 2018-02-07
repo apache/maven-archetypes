@@ -28,7 +28,7 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which contains a sample Maven site which demonstrates
+ <<<${project.artifactId}>>> is an archetype which generates a sample Maven site which demonstrates
  some of the supported document types like APT, XDoc, and FML and demonstrates how to i18n your site:
 
 +----+
@@ -62,7 +62,7 @@ project
 
 * Usage
 
- To create a new project from this archetype, type:
+ To generate a new project from this archetype, type:
 
 +----+
 

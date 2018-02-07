@@ -28,7 +28,7 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which contains a sample Maven project:
+ <<<${project.artifactId}>>> is an archetype which generates a sample Maven project:
 
 +----+
 
@@ -48,7 +48,7 @@ project
 
 * Usage
 
- To create a new project from this archetype, type:
+ To generate a new project from this archetype, type:
 
 +----+
 
