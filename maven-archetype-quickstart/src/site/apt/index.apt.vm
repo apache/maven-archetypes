@@ -41,7 +41,7 @@ project
     |           `-- App.java
     `-- test
         `-- java
-    |       `-- $package
+            `-- $package
                 `-- AppTest.java
 
 +----+
