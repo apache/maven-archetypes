@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>archetype.it</groupId>
-  <artifactId>basic</artifactId>
+  <artifactId>basic-site-simple</artifactId>
   <version>0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
