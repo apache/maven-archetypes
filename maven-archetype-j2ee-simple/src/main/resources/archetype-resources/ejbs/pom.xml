@@ -5,25 +5,23 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>root</groupId>
-    <artifactId>project</artifactId>
-    <version>1.0</version>
+    <groupId>${groupId}</groupId>
+    <artifactId>${rootArtifactId}</artifactId>
+    <version>${version}</version>
   </parent>
 
-  <groupId>root.project</groupId>
   <artifactId>ejbs</artifactId>
-  <version>1.0</version>
   <packaging>ejb</packaging>
 
   <name>enterprise java beans</name>
 
   <dependencies>
     <dependency>
-      <groupId>root.project</groupId>
+      <groupId>${groupId}</groupId>
       <artifactId>primary-source</artifactId>
     </dependency>
     <dependency>
-      <groupId>root.project.projects</groupId>
+      <groupId>${groupId}</groupId>
       <artifactId>logging</artifactId>
     </dependency>
   </dependencies>

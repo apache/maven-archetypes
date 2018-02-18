@@ -4,12 +4,12 @@
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>root</groupId>
-  <artifactId>project</artifactId>
-  <version>1.0</version>
+  <groupId>${groupId}</groupId>
+  <artifactId>${artifactId}</artifactId>
+  <version>${version}</version>
   <packaging>pom</packaging>
 
-  <name>project</name>
+  <name>${artifactId}</name>
 
   <modules>
     <module>projects</module>
@@ -34,25 +34,25 @@
   <dependencyManagement>
     <dependencies>
       <dependency>
-        <groupId>root.project.projects</groupId>
+        <groupId>${groupId}</groupId>
         <artifactId>logging</artifactId>
-        <version>1.0</version>
+        <version>${version}</version>
       </dependency>
       <dependency>
-        <groupId>root.project</groupId>
+        <groupId>${groupId}</groupId>
         <artifactId>primary-source</artifactId>
-        <version>1.0</version>
+        <version>${version}</version>
       </dependency>
       <dependency>
-        <groupId>root.project.servlets</groupId>
+        <groupId>${groupId}</groupId>
         <artifactId>servlet</artifactId>
-        <version>1.0</version>
+        <version>${version}</version>
         <type>war</type>
       </dependency>
       <dependency>
-        <groupId>root.project</groupId>
+        <groupId>${groupId}</groupId>
         <artifactId>ejbs</artifactId>
-        <version>1.0</version>
+        <version>${version}</version>
         <type>ejb</type>
       </dependency>
     </dependencies>

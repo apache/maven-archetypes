@@ -5,14 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>root.project</groupId>
+    <groupId>${groupId}</groupId>
     <artifactId>projects</artifactId>
-    <version>1.0</version>
+    <version>${version}</version>
   </parent>
 
-  <groupId>root.project.projects</groupId>
   <artifactId>logging</artifactId>
-  <packaging>jar</packaging>
 
   <name>logging</name>
 </project>

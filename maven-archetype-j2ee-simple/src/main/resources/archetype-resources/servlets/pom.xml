@@ -5,14 +5,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>root</groupId>
-    <artifactId>project</artifactId>
-    <version>1.0</version>
+    <groupId>${groupId}</groupId>
+    <artifactId>${rootArtifactId}</artifactId>
+    <version>${version}</version>
   </parent>
 
-  <groupId>root.project</groupId>
   <artifactId>servlets</artifactId>
-  <version>1.0</version>
   <packaging>pom</packaging>
 
   <name>servlets</name>
