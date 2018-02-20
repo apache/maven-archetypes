@@ -24,31 +24,17 @@ under the License.
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <artifactId>maven-archetype-bundles</artifactId>
     <groupId>org.apache.maven.archetypes</groupId>
-    <version>5</version>
-    <relativePath>../../pom/maven/maven-archetype-bundles</relativePath>
+    <artifactId>maven-archetype-bundles</artifactId>
+    <version>1.3-SNAPSHOT</version>
   </parent>
 
   <artifactId>maven-archetype-simple</artifactId>
   <packaging>maven-archetype</packaging>
-  <version>1.1-SNAPSHOT</version>
 
   <name>Maven Simple Project Archetype</name>
   <description>
     An archetype which contains a simple Maven project.
   </description>
-
-  <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-simple</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk/maven-archetype-simple</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk/maven-archetype-simple</url>
-  </scm>
-  <distributionManagement>
-    <site>
-      <id>apache.website</id>
-      <url>scm:svn:https://svn.apache.org/repos/infra/websites/production/maven/components/${maven.site.path}</url>
-    </site>
-  </distributionManagement>
 
 </project>

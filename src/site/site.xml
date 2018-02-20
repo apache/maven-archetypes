@@ -19,22 +19,23 @@ specific language governing permissions and limitations
 under the License.
 -->
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/DECORATION/1.8.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/DECORATION/1.8.0 http://maven.apache.org/xsd/decoration-1.8.0.xsd">
 
-  <parent>
-    <groupId>org.apache.maven.archetypes</groupId>
-    <artifactId>maven-archetype-bundles</artifactId>
-    <version>1.3-SNAPSHOT</version>
-  </parent>
+  <edit>${project.scm.url}</edit>
 
-  <artifactId>maven-archetype-j2ee-simple</artifactId>
-  <packaging>maven-archetype</packaging>
+  <body>
+    <breadcrumbs>
+      <item name="Archetypes" href="https://maven.apache.org/archetypes/index.html" />
+    </breadcrumbs>
 
-  <name>Maven Simple J2EE Archetype</name>
-  <description>
-    An archetype which contains a simplified sample J2EE application.
-  </description>
+    <menu name="Overview">
+      <item name="Introduction" href="index.html"/>
+      <!-- According to https://issues.apache.org/jira/browse/MNGSITE-152 -->
+      <item name="License" href="http://www.apache.org/licenses/"/>
+      <item name="Download" href="download.html"/>
+    </menu>
 
+    <menu ref="modules" />
+  </body>
 </project>
