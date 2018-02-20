@@ -35,10 +35,15 @@ ${project.name}
 project
 |-- pom.xml
 `-- src
-    `-- main
-        `-- java
-            `-- $package
-                `-- MyMojo.java
+    |-- main
+    |   `-- java
+    |       `-- $package
+    |           `-- MyMojo.java
+    `-- it
+        |-- simple-it
+        |   |-- pom.xml
+        |   `-- verify.groovy
+        `-- settings.xml
 
 +----+
 
