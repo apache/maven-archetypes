@@ -81,6 +81,18 @@ under the License.
         <version>3.0.1</version>
       </extension>
     </extensions>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+      </resource>
+      <resource>
+        <directory>src/main/resources-filtered</directory>
+        <filtering>true</filtering>
+      </resource>
+    </resources>
+    <filters>
+      <filter>../plugin-versions.properties</filter>
+    </filters>
     <pluginManagement>
       <plugins>
         <plugin>
@@ -94,6 +106,13 @@ under the License.
           <configuration>
             <tagBase>https://svn.apache.org/repos/asf/maven/archetypes/tags/</tagBase>
             <autoVersionSubmodules>true</autoVersionSubmodules>
+          </configuration>
+        </plugin>
+        <plugin>
+          <groupId>org.apache.maven.plugins</groupId>
+          <artifactId>maven-resources-plugin</artifactId>
+          <configuration>
+            <escapeString>\</escapeString>
           </configuration>
         </plugin>
       </plugins>
