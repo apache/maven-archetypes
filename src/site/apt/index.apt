@@ -47,7 +47,7 @@ Maven Archetypes
 *-----------------------------------------------------------------+----------------+
 | {{{./maven-archetype-simple/}maven-archetype-simple}}           | An archetype to generate a simple Maven project. |
 *-----------------------------------------------------------------+----------------+
-| {{{./maven-archetype-site/}maven-archetype-site}}               | An archetype to generate a sample Maven site which demonstrates some of the supported document types like APT, XDoc, and FML and demonstrates how to i18n your site. |
+| {{{./maven-archetype-site/}maven-archetype-site}}               | An archetype to generate a sample Maven site which demonstrates some of the supported document types like APT, Markdown, XDoc, and FML and demonstrates how to i18n your site. |
 *-----------------------------------------------------------------+----------------+
 | {{{./maven-archetype-site-simple/}maven-archetype-site-simple}} | An archetype to generate a sample Maven site. |
 *-----------------------------------------------------------------+----------------+
