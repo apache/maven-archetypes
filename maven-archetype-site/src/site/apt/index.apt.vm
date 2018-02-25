@@ -29,7 +29,7 @@
 ${project.name}
 
  <<<${project.artifactId}>>> is an archetype which generates a sample Maven site which demonstrates
- some of the supported document types like APT, XDoc, and FML and demonstrates how to i18n your site:
+ some of the supported document types like APT, Markdown, XDoc, and FML and demonstrates how to i18n your site:
 
 +----+
 
@@ -48,8 +48,14 @@ project
         |   |   `-- index.apt
         |   |-- fml
         |   |   `-- faq.fml
+        |   |-- markdown
+        |   |   |-- markdown.md
+        |   |   `-- markdown-velocity.md.vm
         |   `-- xdoc
         |       `-- xdoc.xml
+        |-- markdown
+        |   |-- markdown.md
+        |   `-- markdown-velocity.md.vm
         |-- xdoc
         |   `-- xdoc.xml
         |-- site_fr.xml

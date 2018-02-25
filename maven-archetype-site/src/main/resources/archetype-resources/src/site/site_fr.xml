@@ -28,6 +28,8 @@
     <menu name="Exemples">
       <item name="Format APT" href="format.html"/>
       <item name="FAQ" href="faq.html"/>
+      <item name="Exemple Markdown" href="markdown.html"/>
+      <item name="Exemple Markdown avec Velocity" href="markdown-velocity.html"/>
       <item name="Exemple Xdoc" href="xdoc.html"/>
     </menu>
 

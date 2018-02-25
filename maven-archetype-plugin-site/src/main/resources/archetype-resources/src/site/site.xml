@@ -47,6 +47,8 @@
     <menu name="Samples">
       <item name="Sample Changes Report" href="changes-report.html"/>
       <item name="Live JIRA Report" href="jira-report.html"/>
+      <item name="Markdown Example" href="markdown.html"/>
+      <item name="Markdown with Velocity Example" href="markdown-velocity.html"/>
     </menu>
 
     <menu name="Examples">
