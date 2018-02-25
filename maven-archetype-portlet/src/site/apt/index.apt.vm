@@ -3,7 +3,7 @@
  ------
  Hervé Boutemy
  ------
- 2010-04-26
+ 2010-04-25
  ------
 
 ~~ Licensed to the Apache Software Foundation (ASF) under one
@@ -28,31 +28,34 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which generates a sample Maven plugin's site:
+ <<<${project.artifactId}>>> is an archetype which generates a sample JSR-268 Portlet:
 
 +----+
 
 project
 |-- pom.xml
 `-- src
-    `-- site
-        |-- apt
-        |   |-- examples
-        |   |   `-- example.apt
-        |   |-- index.apt
-        |   `-- usage.apt
-        |-- markdown
-        |   |-- markdown.md
-        |   `-- markdown-velocity.md.vm
-        `-- site.xml
+    `-- main
+        |-- java
+        |   `-- $package
+        |       `-- MyPortlet.java
+        |-- jetspeed
+        |   `-- web.xml
+        `-- webapp
+            |-- WEB-INF
+            |   |-- tld
+            |   |   `-- portlet.tld
+            |   |-- portlet.xml
+            |   `-- web.xml
+            |-- help.jsp
+            |-- maximized.jsp
+            `-- normal.jsp
 
 +----+
 
- This archetype can be layered upon an existing Maven project.
-
 * Usage
 
- To generate a new project or update an existing project from this archetype, type:
+ To generate a new project from this archetype, type:
 
 +----+
 

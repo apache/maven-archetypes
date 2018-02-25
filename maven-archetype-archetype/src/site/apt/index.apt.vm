@@ -3,7 +3,7 @@
  ------
  Hervé Boutemy
  ------
- 2010-04-26
+ 2010-04-25
  ------
 
 ~~ Licensed to the Apache Software Foundation (ASF) under one
@@ -28,31 +28,39 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which generates a sample Maven plugin's site:
+ <<<${project.artifactId}>>> is an archetype which generates a sample archetype:
 
 +----+
 
 project
 |-- pom.xml
 `-- src
-    `-- site
-        |-- apt
-        |   |-- examples
-        |   |   `-- example.apt
-        |   |-- index.apt
-        |   `-- usage.apt
-        |-- markdown
-        |   |-- markdown.md
-        |   `-- markdown-velocity.md.vm
-        `-- site.xml
+    |-- main
+    |   `-- resources
+    |       |-- archetype-resources
+    |       |   |-- pom.xml
+    |       |   `-- src
+    |       |       |-- main
+    |       |       |   `-- java
+    |       |       |       `-- App.java
+    |       |       `-- test
+    |       |           `-- java
+    |       |               `-- AppTest.java
+    |       `-- META-INF
+    |           `-- maven
+    |               `-- archetype-metadata.xml
+    `-- test
+        `-- resources
+            `-- projects
+                `-- it-basic
+                    |-- archetype.properties
+                    `-- goal.txt
 
 +----+
 
- This archetype can be layered upon an existing Maven project.
-
 * Usage
 
- To generate a new project or update an existing project from this archetype, type:
+ To generate a new project from this archetype, type:
 
 +----+
 

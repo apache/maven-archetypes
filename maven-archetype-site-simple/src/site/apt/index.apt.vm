@@ -38,6 +38,9 @@ project
     `-- site
         |-- apt
         |   `-- index.apt
+        |-- markdown
+        |   |-- markdown-velocity.md.vm
+        |   `-- markdown.md
         `-- site.xml
 
 +----+
