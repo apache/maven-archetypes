@@ -22,7 +22,21 @@ assert parameter.type.text() == 'java.io.File'
 assert parameter.required.text() == 'true'
 assert parameter.description.text() == 'Location of the file.'
 
+File testFile = new File( basedir, "project/basic-plugin/src/main/java/it/pkg/plugin/MyMojo.java" );
+assert testFile.exists()
 
+testFile = new File( basedir, "project/basic-plugin/src/test/java/it/pkg/plugin/MyMojoTest.java" );
+assert testFile.exists()
 
+testFile = new File( basedir, "project/basic-plugin/src/test/resources/project-to-test/pom.xml" );
+assert testFile.exists()
 
+testFile = new File( basedir, "project/basic-plugin/src/it/simple-it/verify.groovy" );
+assert testFile.exists()
+
+testFile = new File( basedir, "project/basic-plugin/src/it/simple-it/pom.xml" );
+assert testFile.exists()
+
+testFile = new File( basedir, "project/basic-plugin/src/it/settings.xml" );
+assert testFile.exists()
 

@@ -39,6 +39,13 @@ project
     |   `-- java
     |       `-- $package
     |           `-- MyMojo.java
+    |-- test
+    |   |-- java
+    |   |   `-- $package
+    |   │       `-- MyMojoTest.java
+    |   `-- resources
+    |       `-- project-to-test
+    |           `-- pom.xml
     `-- it
         |-- simple-it
         |   |-- pom.xml
