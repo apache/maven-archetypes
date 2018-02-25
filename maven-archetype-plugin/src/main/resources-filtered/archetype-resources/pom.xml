@@ -30,11 +30,15 @@
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
 
+  <prerequisites>
+    <maven>${maven.version}</maven>
+  </prerequisites>
+
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.compiler.source>1.7</project.compiler.source>
     <project.compiler.target>1.7</project.compiler.target>
-    <maven.version>3.5.2</maven.version>
+    <maven.version>3.0.4</maven.version>
   </properties>
 
   <dependencies>
