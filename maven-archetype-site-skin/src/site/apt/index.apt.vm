@@ -28,7 +28,8 @@
 
 ${project.name}
 
- <<<${project.artifactId}>>> is an archetype which generates a sample Maven project:
+ <<<${project.artifactId}>>> is an archetype which generates a sample
+ {{{/plugins/maven-site-plugin/examples/creatingskins.html}Maven Site Skin}}:
 
 +----+
 
