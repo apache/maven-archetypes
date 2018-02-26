@@ -3,7 +3,7 @@
  ------
  Hervé Boutemy
  ------
- 2010-04-25
+ 2018-02-26
  ------
 
 ~~ Licensed to the Apache Software Foundation (ASF) under one
@@ -36,13 +36,33 @@ project
 |-- pom.xml
 `-- src
     |-- main
-    |   `-- java
-    |       `-- $package
-    |           `-- App.java
-    `-- test
-        `-- java
-            `-- $package
-                `-- AppTest.java
+    |   `-- resources
+    |       `-- META-INF
+    |           |-- css
+    |           |   |-- maven-base.css
+    |           |   |-- maven-theme.css
+    |           |   `-- print.css
+    |           |-- images
+    |           |   |-- external.png
+    |           |   |-- icon_error_sml.gif
+    |           |   |-- icon_info_sml.gif
+    |           |   |-- icon_success_sml.gif
+    |           |   |-- icon_warning_sml.gif
+    |           |   `-- newwindow.png
+    |           `-- maven
+    |               |-- site.vm
+    |               |-- site-macros.vm
+    |               `-- skin.xml
+    `-- it
+        |-- settings.xml
+        `-- sample
+            |-- pom.xml
+            `-- verify.groovy
+                `-- src
+                    `-- site
+                        |-- site.xml
+                        `-- apt
+                            `-- index.apt.vm
 
 +----+
 
