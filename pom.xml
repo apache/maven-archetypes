@@ -49,6 +49,7 @@ under the License.
     <module>maven-archetype-simple</module>
     <module>maven-archetype-site</module>
     <module>maven-archetype-site-simple</module>
+    <module>maven-archetype-site-skin</module>
     <module>maven-archetype-webapp</module>
   </modules>
 

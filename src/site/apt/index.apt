@@ -51,5 +51,7 @@ Maven Archetypes
 *-----------------------------------------------------------------+----------------+
 | {{{./maven-archetype-site-simple/}maven-archetype-site-simple}} | An archetype to generate a sample Maven site. |
 *-----------------------------------------------------------------+----------------+
+| {{{./maven-archetype-site-skin/}maven-archetype-site-skin}}     | An archetype to generate a sample Maven Site Skin. |
+*-----------------------------------------------------------------+----------------+
 | {{{./maven-archetype-webapp/}maven-archetype-webapp}}           | An archetype to generate a sample Maven Webapp project. |
 *-----------------------------------------------------------------+----------------+
