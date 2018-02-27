@@ -108,5 +108,68 @@
         </plugins>
       </build>
     </profile>
+    <profile>
+      <id>minify</id>
+      <build>
+        <resources>
+          <!-- exclude css and js since will include the minified version -->
+          <resource>
+            <directory>\${basedir}/src/main/resources</directory>
+            <excludes>
+              <exclude>css/**</exclude>
+              <exclude>js/**</exclude>
+            </excludes>
+            <filtering>true</filtering> <!-- add skin-info -->
+          </resource>
+
+          <!-- include the print.css -->
+          <resource>
+            <directory>${basedir}/src/main/resources</directory>
+            <includes>
+              <include>css/print.css</include>
+            </includes>
+          </resource>
+
+          <!-- include minified only -->
+          <resource>
+            <directory>\${project.build.directory}/\${project.build.finalName}</directory>
+            <includes>
+              <include>css/\${artifactId}-\${project.version}.min.css</include>
+              <include>js/\${artifactId}-\${project.version}.min.js</include>
+            </includes>
+          </resource>
+        </resources>
+        <plugins>
+          <plugin>
+            <groupId>com.samaxes.maven</groupId>
+            <artifactId>maven-minify-plugin</artifactId>
+            <version>1.3.5</version>
+            <executions>
+              <execution>
+                <id>default-minify</id>
+                <phase>generate-resources</phase>
+                <configuration>
+                  <webappSourceDir>\${basedir}/src/main/resources</webappSourceDir>
+                  <cssSourceDir>css</cssSourceDir>
+                  <cssSourceFiles>
+                    <cssSourceFile>maven-base.css</cssSourceFile>
+                    <cssSourceFile>maven-theme.css</cssSourceFile>
+                  </cssSourceFiles>
+                  <cssFinalFile>\${artifactId}-\${project.version}.css</cssFinalFile>
+                  <!--jsSourceDir>js</jsSourceDir>
+                  <jsSourceFiles>
+                    <jsSourceFile>fluido.js</jsSourceFile>
+                  </jsSourceFiles>
+                  <jsFinalFile>\${artifactId}-\${project.version}.js</jsFinalFile-->
+                </configuration>
+                <goals>
+                  <goal>minify</goal>
+                </goals>
+              </execution>
+            </executions>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
   </profiles>
 </project>
