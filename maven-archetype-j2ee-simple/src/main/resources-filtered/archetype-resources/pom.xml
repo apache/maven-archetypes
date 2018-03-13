@@ -102,6 +102,10 @@
           <artifactId>maven-deploy-plugin</artifactId>
           <version>${deploy}</version>
         </plugin>
+        <plugin>
+          <artifactId>maven-javadoc-plugin</artifactId>
+          <version>${javadoc}</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>

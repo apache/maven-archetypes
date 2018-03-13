@@ -100,7 +100,7 @@ other lines of the paragraph.
   several consecutive lines of text which specifies the author of the
   document.
 
-  The author sub-block may optionaly be followed by a date sub-block using the
+  The author sub-block may optionally be followed by a date sub-block using the
   same syntax.
 
   The following example is used for a document with an title and a date but

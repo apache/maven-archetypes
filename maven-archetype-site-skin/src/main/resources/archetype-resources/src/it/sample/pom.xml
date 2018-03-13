@@ -10,12 +10,15 @@
   <packaging>jar</packaging>
 
   <name>@project.artifactId@ IT</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
 
   <properties>
     <skinName>@project.name@</skinName>
     <skinGroupId>@project.groupId@</skinGroupId>
     <skinArtifactId>@project.artifactId@</skinArtifactId>
     <skinVersion>@project.version@</skinVersion>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 
   <dependencies>

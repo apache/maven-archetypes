@@ -8,6 +8,12 @@
   <artifactId>\${artifactId}</artifactId>
   <version>\${version}</version>
 
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <project.compiler.source>1.7</project.compiler.source>
+    <project.compiler.target>1.7</project.compiler.target>
+  </properties>
+
   <dependencies>
     <dependency>
       <groupId>junit</groupId>

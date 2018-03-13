@@ -39,6 +39,10 @@
           <artifactId>maven-project-info-reports-plugin</artifactId>
           <version>${pir}</version>
         </plugin>
+        <plugin>
+          <artifactId>maven-plugin-plugin</artifactId>
+          <version>${plugin}</version>
+        </plugin>
       </plugins>
     </pluginManagement>
   </build>
