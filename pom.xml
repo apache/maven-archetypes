@@ -54,14 +54,19 @@ under the License.
   </modules>
 
   <scm>
-    <connection>scm:svn:http://svn.apache.org/repos/asf/maven/archetypes/trunk</connection>
-    <developerConnection>scm:svn:https://svn.apache.org/repos/asf/maven/archetypes/trunk</developerConnection>
-    <url>http://svn.apache.org/viewvc/maven/archetypes/trunk</url>
+    <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-archetypes.git</connection>
+    <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-archetypes.git</developerConnection>
+    <url>https://github.com/apache/maven-archetypes/tree/${project.scm.tag}</url>
+    <tag>master</tag>
   </scm>
   <issueManagement>
     <system>jira</system>
     <url>https://issues.apache.org/jira/browse/MARCHETYPES</url>
   </issueManagement>
+  <ciManagement>
+    <system>Jenkins</system>
+    <url>https://builds.apache.org/job/maven-box/job/maven-archetypes/</url>
+  </ciManagement>
   <distributionManagement>
     <site>
       <id>apache.website</id>
