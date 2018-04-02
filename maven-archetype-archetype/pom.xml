@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven.archetypes</groupId>
     <artifactId>maven-archetype-bundles</artifactId>
-    <version>1.3</version>
+    <version>1.4-SNAPSHOT</version>
   </parent>
 
   <artifactId>maven-archetype-archetype</artifactId>
