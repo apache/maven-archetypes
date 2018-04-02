@@ -44,7 +44,7 @@ under the License.
     <module>maven-archetype-plugin</module>
     <module>maven-archetype-plugin-site</module>
     <module>maven-archetype-portlet</module>
-    <module>maven-archetype-profiles</module>
+    <!--module>maven-archetype-profiles</module-->
     <module>maven-archetype-quickstart</module>
     <module>maven-archetype-simple</module>
     <module>maven-archetype-site</module>
