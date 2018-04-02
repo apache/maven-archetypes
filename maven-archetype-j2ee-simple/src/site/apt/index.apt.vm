@@ -61,25 +61,25 @@ project
 |-- projects
 |   |-- pom.xml
 |   `-- logging
-|   |   |-- pom.xml
-|   |   `-- src
-|   |       |-- main
-|   |       |   `-- java
-|   |       `-- test
-|   |           `-- java
-|-- servlets
-|   |-- pom.xml
-|   `-- servlet
-|   |   |-- pom.xml
-|   |   `-- src
-|   |       |-- main
-|   |       |   `-- java
-|   |       |-- webapp
-|   |       |   |-- WEB-INF
-|   |       |   |   `-- web.xml
-|   |       |   `-- index.jsp
-|   |       `-- test
-|   |           `-- java
+|       |-- pom.xml
+|       `-- src
+|           |-- main
+|           |   `-- java
+|           `-- test
+|               `-- java
+`-- servlets
+    |-- pom.xml
+    `-- servlet
+        |-- pom.xml
+        `-- src
+            |-- main
+            |   `-- java
+            |-- webapp
+            |   |-- WEB-INF
+            |   |   `-- web.xml
+            |   `-- index.jsp
+            `-- test
+                `-- java
 
 +----+
 
