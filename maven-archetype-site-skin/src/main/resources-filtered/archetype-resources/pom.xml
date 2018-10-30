@@ -124,7 +124,7 @@
 
           <!-- include the print.css -->
           <resource>
-            <directory>${basedir}/src/main/resources</directory>
+            <directory>\${basedir}/src/main/resources</directory>
             <includes>
               <include>css/print.css</include>
             </includes>
