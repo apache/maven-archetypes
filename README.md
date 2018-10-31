@@ -18,7 +18,7 @@ Contributing to [Apache Maven Archetype Bundles](https://maven.apache.org/archet
 ======================
 
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)][license]
-[![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.archetypes/maven-archetype-bundles.svg?label=Maven%20Central)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.apache.maven.archetypes%22%20AND%20a%3A%22maven-archetype-bundles%22)
+[![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.archetypes/maven-archetype-quickstart.svg?label=Maven%20Central)](https://search.maven.org/#search%7Cgav%7C1%7Cg%3A%22org.apache.maven.archetypes%22%20AND%20a%3A%22maven-archetype-bundles%22)
 [![Jenkins Status](https://img.shields.io/jenkins/s/https/builds.apache.org/job/maven-box/job/maven-archetypes/job/master.svg?style=flat-square)][build]
 [![Jenkins tests](https://img.shields.io/jenkins/t/https/builds.apache.org/job/maven-box/job/maven-archetypes/job/master.svg?style=flat-square)][test-results]
 
