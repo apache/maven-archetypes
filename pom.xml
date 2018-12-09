@@ -30,7 +30,7 @@ under the License.
 
   <groupId>org.apache.maven.archetypes</groupId>
   <artifactId>maven-archetype-bundles</artifactId>
-  <version>1.4</version>
+  <version>1.5-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <name>Apache Maven Archetypes</name>
@@ -56,7 +56,7 @@ under the License.
     <connection>scm:git:https://gitbox.apache.org/repos/asf/maven-archetypes.git</connection>
     <developerConnection>scm:git:https://gitbox.apache.org/repos/asf/maven-archetypes.git</developerConnection>
     <url>https://github.com/apache/maven-archetypes/tree/${project.scm.tag}</url>
-    <tag>maven-archetype-bundles-1.4</tag>
+    <tag>master</tag>
   </scm>
   <issueManagement>
     <system>jira</system>
