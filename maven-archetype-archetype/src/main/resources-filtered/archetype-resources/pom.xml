@@ -37,6 +37,11 @@
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
           <version>${archetype}</version>
+          <configuration>
+            <properties>
+              <https.protocols>\${https.protocols}</https.protocols>
+            </properties>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
