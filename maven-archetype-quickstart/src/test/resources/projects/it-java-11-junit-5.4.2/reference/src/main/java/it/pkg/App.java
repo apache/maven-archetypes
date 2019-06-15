@@ -1,4 +1,4 @@
-package $package;
+package it.pkg;
 
 /**
  * Hello world!
