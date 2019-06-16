@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
-
 #macro( compilerProperties $ver )
 #if ($ver == "9" || $ver == "10" || $ver == "11" || $ver == "12" || $ver == "13" || $ver == "14")
     <maven.compiler.release>${ver}</maven.compiler.release>
@@ -8,7 +7,6 @@
     <maven.compiler.target>${ver}</maven.compiler.target>
 #end
 #end
-
 #macro( junit $ver )
 #if ( $ver.startsWith("4.") )
     <dependency>
@@ -32,7 +30,6 @@
     </dependency>
 #end
 #end
-
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
