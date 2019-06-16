@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 #macro( compilerProperties $ver )
-  #if ($ver == "9" || $ver == "10" || $ver == "11" || $ver == "12" || $ver == "13" || $ver == "14")
+#if ($ver == "9" || $ver == "10" || $ver == "11" || $ver == "12" || $ver == "13" || $ver == "14")
     <maven.compiler.release>${ver}</maven.compiler.release>
-  #else
+#else
     <maven.compiler.source>${ver}</maven.compiler.source>
     <maven.compiler.target>${ver}</maven.compiler.target>
-  #end
+#end
 #end
 
 #macro( junit $ver )
-  #if ( $ver.startsWith("4.") )
+#if ( $ver.startsWith("4.") )
     <dependency>
-        <groupId>junit</groupId>
-        <artifactId>junit</artifactId>
-        <version>${ver}</version>
-        <scope>test</scope>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>${ver}</version>
+      <scope>test</scope>
     </dependency>
-  #elseif ( $ver.startsWith("5.") )
+#elseif ( $ver.startsWith("5.") )
     <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-api</artifactId>
-        <version>${ver}</version>
-        <scope>test</scope>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-api</artifactId>
+      <version>${ver}</version>
+      <scope>test</scope>
     </dependency>
     <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
-        <version>${ver}</version>
-        <scope>test</scope>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-engine</artifactId>
+      <version>${ver}</version>
+      <scope>test</scope>
     </dependency>
-  #end
+#end
 #end
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -47,19 +47,19 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-    #if ( ${javaCompilerVersion} == $null )
-      #compilerProperties( "1.7" )
-    #else
-      #compilerProperties( ${javaCompilerVersion} )
-    #end
+#if ( ${javaCompilerVersion} == $null )
+#compilerProperties( "1.7" )
+#else
+#compilerProperties( ${javaCompilerVersion} )
+#end
   </properties>
 
   <dependencies>
-    #if ( ${junitVersion} == $null )
-      #junit( "4.11" )
-    #else
-      #junit( ${junitVersion} )
-    #end
+#if ( ${junitVersion} == $null )
+#junit( "4.12" )
+#else
+#junit( ${junitVersion} )
+#end
   </dependencies>
 
   <build>
