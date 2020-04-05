@@ -25,7 +25,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>33</version>
+    <version>34</version>
   </parent>
 
   <groupId>org.apache.maven.archetypes</groupId>
@@ -76,6 +76,7 @@ under the License.
   <properties>
     <maven.site.path>archetypes-archives/archetypes-LATEST</maven.site.path>
     <rat.skip>true</rat.skip>
+    <project.build.outputTimestamp>2020-04-05T12:04:00Z</project.build.outputTimestamp>
   </properties>
 
   <build>
@@ -83,7 +84,7 @@ under the License.
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>3.1.0</version>
+        <version>3.2.0-SNAPSHOT</version>
       </extension>
     </extensions>
     <resources>
@@ -103,7 +104,7 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-archetype-plugin</artifactId>
-          <version>3.1.0</version>
+          <version>3.2.0-SNAPSHOT</version>
           <configuration>
             <ignoreEOLStyle>true</ignoreEOLStyle>
             <properties>
