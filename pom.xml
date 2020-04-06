@@ -79,6 +79,17 @@ under the License.
     <project.build.outputTimestamp>2020-04-05T12:04:00Z</project.build.outputTimestamp>
   </properties>
 
+  <repositories>
+    <repository><!-- useful to resolve maven-arhetype-plugin when it is a SNAPSHOT -->
+      <id>apache.snapshots</id>
+      <name>Apache Snapshot Repository</name>
+      <url>https://repository.apache.org/snapshots</url>
+      <releases>
+        <enabled>false</enabled>
+      </releases>
+    </repository>
+  </repositories>
+
   <build>
     <extensions>
       <extension>
