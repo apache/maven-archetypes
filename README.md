@@ -17,6 +17,7 @@
 Contributing to [Apache Maven Archetype Bundles](https://maven.apache.org/archetypes/)
 ======================
 
+[![ASF Jira](https://img.shields.io/endpoint?url=https%3A%2F%2Fmaven.apache.org%2Fbadges%2Fasf_jira-MARCHETYPES.json)][jira]
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)][license]
 [![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.archetypes/maven-archetype-quickstart.svg?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.maven.archetypes/maven-archetype-bundles)
 [![Jenkins Status](https://img.shields.io/jenkins/s/https/builds.apache.org/job/maven-box/job/maven-archetypes/job/master.svg)][build]

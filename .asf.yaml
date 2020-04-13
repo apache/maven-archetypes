@@ -21,6 +21,5 @@ github:
   labels:
     - java
     - build-management
-    - maven-plugins
     - maven-archetype
     - maven
