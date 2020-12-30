@@ -82,13 +82,14 @@ Additional Resources
 --------------------
 
 + [Contributing patches](https://maven.apache.org/guides/development/guide-maven-development.html#Creating_and_submitting_a_patch)
-+ [Apache Maven Archetype Bundles JIRA project page](https://issues.apache.org/jira/projects/MARCHETYPES/)
++ [Apache Maven Archetype Bundles JIRA project page][jira]
 + [Contributor License Agreement][cla]
 + [General GitHub documentation](https://help.github.com/)
 + [GitHub pull request documentation](https://help.github.com/send-pull-requests/)
 + [Apache Maven Twitter Account](https://twitter.com/ASFMavenProject)
 + #Maven IRC channel on freenode.org
 
+[jira]: https://issues.apache.org/jira/projects/MARCHETYPES/
 [license]: https://www.apache.org/licenses/LICENSE-2.0
 [ml-list]: http://maven.apache.org/mailing-lists.html
 [code-style]: https://maven.apache.org/developers/conventions/code.html
