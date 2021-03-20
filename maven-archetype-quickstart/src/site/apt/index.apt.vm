@@ -55,3 +55,11 @@ project
 mvn archetype:generate -DarchetypeGroupId=${project.groupId} -DarchetypeArtifactId=${project.artifactId} -DarchetypeVersion=${project.version}
 
 +----+
+
+The above command might not work on Windows or certain operating systems as-is. You can quote the parameters like this:
+
++----+
+
+mvn archetype:generate "-DarchetypeGroupId=${project.groupId}" "-DarchetypeArtifactId=${project.artifactId}" "-DarchetypeVersion=${project.version}"
+
++----+
