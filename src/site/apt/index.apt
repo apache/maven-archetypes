@@ -35,7 +35,7 @@ Maven Archetypes
 *-----------------------------------------------------------------+----------------+
 | {{{./maven-archetype-archetype/}maven-archetype-archetype}}     | An archetype to generate a sample archetype. |
 *-----------------------------------------------------------------+----------------+
-| {{{./maven-archetype-j2ee-simple/}maven-archetype-j2ee-simple}} | An archetype to generate a simplifed sample J2EE application. |
+| {{{./maven-archetype-j2ee-simple/}maven-archetype-j2ee-simple}} | An archetype to generate a simplified sample J2EE application. |
 *-----------------------------------------------------------------+----------------+
 | {{{./maven-archetype-plugin/}maven-archetype-plugin}}           | An archetype to generate a sample Maven plugin. |
 *-----------------------------------------------------------------+----------------+
