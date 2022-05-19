@@ -21,6 +21,12 @@ under the License.
   xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype-descriptor/1.0.0 http://maven.apache.org/xsd/archetype-descriptor-1.0.0.xsd"
   name="j2ee">
 
+  <filesets>
+    <fileSet filtered="false">
+      <directory>.mvn</directory>
+    </fileSet>
+  </filesets>
+
   <modules>
     <module id="ear" dir="ear" name="ear">
       <fileSets>

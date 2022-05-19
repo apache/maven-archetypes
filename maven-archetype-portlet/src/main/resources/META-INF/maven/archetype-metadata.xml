@@ -42,5 +42,8 @@ under the License.
         <include>**/*.tld</include>
       </includes>
     </fileSet>
+    <fileSet filtered="false">
+      <directory>.mvn</directory>
+    </fileSet>
   </fileSets>
 </archetype-descriptor>

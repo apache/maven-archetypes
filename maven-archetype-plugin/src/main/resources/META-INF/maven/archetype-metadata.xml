@@ -34,5 +34,8 @@ under the License.
     <fileSet filtered="true" packaged="false">
       <directory>src/it</directory>
     </fileSet>
+    <fileSet filtered="false">
+      <directory>.mvn</directory>
+    </fileSet>
   </fileSets>
 </archetype-descriptor>
