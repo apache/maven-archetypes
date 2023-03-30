@@ -62,6 +62,9 @@ public class MyMojoTest
         File touch = new File( outputDirectory, "touch.txt" );
         assertTrue( touch.exists() );
 
+        File expectedOutputDirectory = new File
+          (pom.getAbsoluteFile(), "target/test-harness/project-to-test");
+        assertEquals(expectedOutputDirectory, outputDirectory);
     }
 
     /** Do not need the MojoRule. */

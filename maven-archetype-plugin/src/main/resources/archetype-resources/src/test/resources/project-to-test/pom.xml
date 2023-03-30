@@ -20,7 +20,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>${groupId}</groupId>
-  <artifactId>${artifactId}</artifactId>
+  <artifactId>project-to-test</artifactId>
   <version>${version}</version>
   <packaging>jar</packaging>
   <name>Test MyMojo</name>
@@ -28,7 +28,8 @@
   <build>
     <plugins>
       <plugin>
-        <artifactId>maven-my-plugin</artifactId>
+        <groupId>${groupId}</groupId>
+        <artifactId>${artifactId}</artifactId>
         <configuration>
           <!-- Specify the MyMojo parameter -->
           <outputDirectory>target/test-harness/project-to-test</outputDirectory>
