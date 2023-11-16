@@ -46,7 +46,7 @@
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 #if ( ${javaCompilerVersion} == $null )
-#compilerProperties( "1.7" )
+#compilerProperties( "1.8" )
 #else
 #compilerProperties( ${javaCompilerVersion} )
 #end
