@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-#macro( compilerProperties $javaCompilerVersion )
+#macro( compilerProperties $javaCompilerVersionLocal )
 #set( $Double = 0.0 )
-#if ( $Double.valueOf($javaCompilerVersion) > 8 )
-    <maven.compiler.release>${javaCompilerVersion}</maven.compiler.release>
+#if ( $Double.valueOf($javaCompilerVersionLocal) > 8 )
+    <maven.compiler.release>${javaCompilerVersionLocal}</maven.compiler.release>
 #else
-    <maven.compiler.source>${javaCompilerVersion}</maven.compiler.source>
-    <maven.compiler.target>${javaCompilerVersion}</maven.compiler.target>
+    <maven.compiler.source>${javaCompilerVersionLocal}</maven.compiler.source>
+    <maven.compiler.target>${javaCompilerVersionLocal}</maven.compiler.target>
 #end
 #end
 #macro( junit $ver )
