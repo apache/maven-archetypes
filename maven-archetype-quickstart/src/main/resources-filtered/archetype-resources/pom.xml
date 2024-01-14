@@ -6,6 +6,7 @@
 #else
     <maven.compiler.source>${javaCompilerVersionLocal}</maven.compiler.source>
     <maven.compiler.target>${javaCompilerVersionLocal}</maven.compiler.target>
+    <!--maven.compiler.target>11</maven.compiler.target-->
 #end
 #end
 #macro( junit $ver )
