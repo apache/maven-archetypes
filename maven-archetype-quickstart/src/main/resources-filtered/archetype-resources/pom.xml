@@ -45,19 +45,11 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-#if ( ${javaCompilerVersion} == $null )
-#compilerProperties( "8" )
-#else
 #compilerProperties( ${javaCompilerVersion} )
-#end
   </properties>
 
   <dependencies>
-#if ( ${junitVersion} == $null )
-#junit( "4.13.1" )
-#else
 #junit( ${junitVersion} )
-#end
   </dependencies>
 
   <build>
