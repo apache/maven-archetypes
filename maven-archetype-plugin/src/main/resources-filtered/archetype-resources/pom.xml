@@ -69,7 +69,7 @@
     <dependency>
       <groupId>org.apache.maven.plugin-tools</groupId>
       <artifactId>maven-plugin-annotations</artifactId>
-      <version>${plugin}</version>
+      <version>${version.maven-plugin-tools}</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
@@ -91,40 +91,40 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>${clean}</version>
+          <version>${version.maven-clean-plugin}</version>
         </plugin>
         <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_maven-plugin_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>${resources}</version>
+          <version>${version.maven-resources-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>${compiler}</version>
+          <version>${version.maven-compiler-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-plugin-plugin</artifactId>
-          <version>${plugin}</version>
+          <version>${version.maven-plugin-tools}</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>${surefire}</version>
+          <version>${version.maven-surefire}</version>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
-          <version>${jar}</version>
+          <version>${version.maven-jar-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
-          <version>${install}</version>
+          <version>${version.maven-install-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>${deploy}</version>
+          <version>${version.maven-deploy-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-invoker-plugin</artifactId>
-          <version>${invoker}</version>
+          <version>${version.maven-invoker-plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -132,7 +132,6 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-plugin-plugin</artifactId>
-        <version>${plugin}</version>
         <configuration>
           <!-- <goalPrefix>${artifactId}</goalPrefix> -->
           <skipErrorNoDescriptorsFound>true</skipErrorNoDescriptorsFound>
@@ -163,7 +162,7 @@
           <plugin>
             <groupId>org.apache.maven.plugins</groupId>
             <artifactId>maven-invoker-plugin</artifactId>
-            <version>${invoker}</version>
+            <version>${version.maven-invoker-plugin}</version>
             <configuration>
               <postBuildHookScript>verify</postBuildHookScript>
               <localRepositoryPath>\${project.build.directory}/local-repo</localRepositoryPath>
@@ -172,9 +171,6 @@
                 <goal>clean</goal>
                 <goal>test-compile</goal>
               </goals>
-              <properties>
-                <https.protocols>\${https.protocols}</https.protocols>
-              </properties>
             </configuration>
             <executions>
               <execution>

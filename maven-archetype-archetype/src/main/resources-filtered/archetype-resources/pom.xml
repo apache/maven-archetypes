@@ -25,35 +25,30 @@
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>${archetype}</version>
+        <version>${version.maven-archetype-plugin}</version>
       </extension>
     </extensions>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>${clean}</version>
+          <version>${version.maven-clean-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-archetype-plugin</artifactId>
-          <version>${archetype}</version>
-          <configuration>
-            <properties>
-              <https.protocols>\${https.protocols}</https.protocols>
-            </properties>
-          </configuration>
+          <version>${version.maven-archetype-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>${resources}</version>
+          <version>${version.maven-resources-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
-          <version>${install}</version>
+          <version>${version.maven-install-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>${deploy}</version>
+          <version>${version.maven-deploy-plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>

@@ -1,4 +1,4 @@
-File descriptorFile = new File( basedir, "project/basic-plugin/target/classes/META-INF/maven/plugin.xml" );
+File descriptorFile = new File( basedir, "project/basic-maven-plugin/target/classes/META-INF/maven/plugin.xml" );
 assert descriptorFile.isFile()
 
 def pluginDescriptor = new XmlParser().parse( descriptorFile );
@@ -22,21 +22,21 @@ assert parameter.type.text() == 'java.io.File'
 assert parameter.required.text() == 'true'
 assert parameter.description.text() == 'Location of the file.'
 
-File testFile = new File( basedir, "project/basic-plugin/src/main/java/it/pkg/plugin/MyMojo.java" );
+File testFile = new File( basedir, "project/basic-maven-plugin/src/main/java/it/pkg/plugin/MyMojo.java" );
 assert testFile.exists()
 
-testFile = new File( basedir, "project/basic-plugin/src/test/java/it/pkg/plugin/MyMojoTest.java" );
+testFile = new File( basedir, "project/basic-maven-plugin/src/test/java/it/pkg/plugin/MyMojoTest.java" );
 assert testFile.exists()
 
-testFile = new File( basedir, "project/basic-plugin/src/test/resources/project-to-test/pom.xml" );
+testFile = new File( basedir, "project/basic-maven-plugin/src/test/resources/project-to-test/pom.xml" );
 assert testFile.exists()
 
-testFile = new File( basedir, "project/basic-plugin/src/it/simple-it/verify.groovy" );
+testFile = new File( basedir, "project/basic-maven-plugin/src/it/simple-it/verify.groovy" );
 assert testFile.exists()
 
-testFile = new File( basedir, "project/basic-plugin/src/it/simple-it/pom.xml" );
+testFile = new File( basedir, "project/basic-maven-plugin/src/it/simple-it/pom.xml" );
 assert testFile.exists()
 
-testFile = new File( basedir, "project/basic-plugin/src/it/settings.xml" );
+testFile = new File( basedir, "project/basic-maven-plugin/src/it/settings.xml" );
 assert testFile.exists()
 
