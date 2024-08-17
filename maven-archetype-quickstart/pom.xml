@@ -32,13 +32,10 @@ under the License.
   <name>Maven Quickstart Archetype</name>
   <description>An archetype which contains a sample Maven project.</description>
 
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.13.1</version>
-    </dependency>
-  </dependencies>
+  <properties>
+    <javaCompilerVersionDefault>8</javaCompilerVersionDefault>
+    <junitVersionDefault>4.13.1</junitVersionDefault>
+  </properties>
 
   <build>
     <testResources>

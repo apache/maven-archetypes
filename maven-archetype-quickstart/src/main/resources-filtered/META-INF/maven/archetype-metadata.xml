@@ -34,4 +34,12 @@ under the License.
       <directory>.mvn</directory>
     </fileSet>
   </fileSets>
+  <requiredProperties>
+    <requiredProperty key="javaCompilerVersion">
+      <defaultValue>${javaCompilerVersionDefault}</defaultValue>
+    </requiredProperty>
+    <requiredProperty key="junitVersion">
+      <defaultValue>${junitVersionDefault}</defaultValue>
+    </requiredProperty>
+  </requiredProperties>
 </archetype-descriptor>
