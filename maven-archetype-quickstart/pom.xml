@@ -39,4 +39,14 @@ under the License.
       <version>4.13.1</version>
     </dependency>
   </dependencies>
+
+  <build>
+    <testResources>
+      <testResource>
+        <filtering>true</filtering>
+        <directory>src/test/resources</directory>
+      </testResource>
+    </testResources>
+  </build>
+
 </project>

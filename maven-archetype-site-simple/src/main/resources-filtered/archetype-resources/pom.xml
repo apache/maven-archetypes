@@ -28,15 +28,15 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>${clean}</version>
+          <version>${version.maven-clean-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
-          <version>${site}</version>
+          <version>${version.maven-site-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>${pir}</version>
+          <version>${version.maven-project-info-reports-plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>

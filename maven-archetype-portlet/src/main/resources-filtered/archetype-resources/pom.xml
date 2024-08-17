@@ -61,32 +61,32 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>${clean}</version>
+          <version>${version.maven-clean-plugin}</version>
         </plugin>
         <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_war_packaging -->
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
-          <version>${resources}</version>
+          <version>${version.maven-resources-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-compiler-plugin</artifactId>
-          <version>${compiler}</version>
+          <version>${version.maven-compiler-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
-          <version>${surefire}</version>
+          <version>${version.maven-surefire}</version>
         </plugin>
         <plugin>
           <artifactId>maven-war-plugin</artifactId>
-          <version>${war}</version>
+          <version>${version.maven-war-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-install-plugin</artifactId>
-          <version>${install}</version>
+          <version>${version.maven-install-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-deploy-plugin</artifactId>
-          <version>${deploy}</version>
+          <version>${version.maven-deploy-plugin}</version>
         </plugin>
       </plugins>
     </pluginManagement>

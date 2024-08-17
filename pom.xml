@@ -23,7 +23,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>41</version>
+    <version>43</version>
     <relativePath />
   </parent>
 
@@ -73,6 +73,10 @@ under the License.
   </distributionManagement>
 
   <properties>
+    <!-- additional plugins versions - not presents in parent -->
+    <version.maven-ejb-plugin>3.2.1</version.maven-ejb-plugin>
+    <version.maven-archetype-plugin>3.2.0</version.maven-archetype-plugin>
+
     <maven.site.path>archetypes-archives/archetypes-LATEST</maven.site.path>
     <rat.skip>true</rat.skip>
     <project.build.outputTimestamp>2020-04-05T12:04:00Z</project.build.outputTimestamp>
@@ -91,9 +95,6 @@ under the License.
   </repositories>
 
   <build>
-    <filters>
-      <filter>../plugin-versions.properties</filter>
-    </filters>
     <resources>
       <resource>
         <directory>src/main/resources</directory>
@@ -108,12 +109,9 @@ under the License.
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-archetype-plugin</artifactId>
-          <version>3.2.0</version>
+          <version>${version.maven-archetype-plugin}</version>
           <configuration>
             <ignoreEOLStyle>true</ignoreEOLStyle>
-            <properties>
-              <https.protocols>${https.protocols}</https.protocols>
-            </properties>
           </configuration>
           <dependencies>
             <dependency>
@@ -136,7 +134,7 @@ under the License.
       <extension>
         <groupId>org.apache.maven.archetype</groupId>
         <artifactId>archetype-packaging</artifactId>
-        <version>3.2.0</version>
+        <version>${version.maven-archetype-plugin}</version>
       </extension>
     </extensions>
   </build>

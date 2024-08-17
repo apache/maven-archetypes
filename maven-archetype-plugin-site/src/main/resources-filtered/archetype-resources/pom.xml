@@ -29,19 +29,19 @@
       <plugins>
         <plugin>
           <artifactId>maven-clean-plugin</artifactId>
-          <version>${clean}</version>
+          <version>${version.maven-clean-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-site-plugin</artifactId>
-          <version>${site}</version>
+          <version>${version.maven-site-plugin}</version>
         </plugin>
         <plugin>
           <artifactId>maven-project-info-reports-plugin</artifactId>
-          <version>${pir}</version>
+          <version>${version.maven-project-info-reports-plugin}</version>
         </plugin>
         <plugin>
-          <artifactId>maven-plugin-plugin</artifactId>
-          <version>${plugin}</version>
+          <artifactId>maven-plugin-report-plugin</artifactId>
+          <version>${version.maven-plugin-tools}</version>
         </plugin>
       </plugins>
     </pluginManagement>
@@ -53,8 +53,7 @@
         <artifactId>maven-project-info-reports-plugin</artifactId>
       </plugin>
       <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-plugin-plugin</artifactId>
+        <artifactId>maven-plugin-report-plugin</artifactId>
         <reportSets>
           <reportSet>
             <reports>
