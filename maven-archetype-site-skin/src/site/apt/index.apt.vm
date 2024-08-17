@@ -31,7 +31,7 @@ ${project.name}
  <<<${project.artifactId}>>> is an archetype which generates a sample
  {{{/plugins/maven-site-plugin/examples/creatingskins.html}Maven Site Skin}}:
 
-+----+
+----
 
 project
 |-- .mvn
@@ -68,14 +68,14 @@ project
                         `-- apt
                             `-- index.apt.vm
 
-+----+
+----
 
 * Usage
 
  To generate a new project from this archetype, type:
 
-+----+
+----
 
 mvn archetype:generate -DarchetypeGroupId=${project.groupId} -DarchetypeArtifactId=${project.artifactId} -DarchetypeVersion=${project.version}
 
-+----+
+----

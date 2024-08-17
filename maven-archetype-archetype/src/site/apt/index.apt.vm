@@ -30,7 +30,7 @@ ${project.name}
 
  <<<${project.artifactId}>>> is an archetype which generates a sample archetype:
 
-+----+
+----
 
 project
 |-- .mvn
@@ -59,14 +59,14 @@ project
                     |-- archetype.properties
                     `-- goal.txt
 
-+----+
+----
 
 * Usage
 
  To generate a new project from this archetype, type:
 
-+----+
+----
 
 mvn archetype:generate -DarchetypeGroupId=${project.groupId} -DarchetypeArtifactId=${project.artifactId} -DarchetypeVersion=${project.version}
 
-+----+
+----

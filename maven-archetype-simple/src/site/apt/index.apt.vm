@@ -30,7 +30,7 @@ ${project.name}
 
  <<<${project.artifactId}>>> is an archetype which generates a simple Maven project:
 
-+----+
+----
 
 project
 |-- .mvn
@@ -49,14 +49,14 @@ project
             `-- $package
                 `-- AppTest.java
 
-+----+
+----
 
 * Usage
 
  To generate a new project from this archetype, type:
 
-+----+
+----
 
 mvn archetype:generate -DarchetypeGroupId=${project.groupId} -DarchetypeArtifactId=${project.artifactId} -DarchetypeVersion=${project.version}
 
-+----+
+----

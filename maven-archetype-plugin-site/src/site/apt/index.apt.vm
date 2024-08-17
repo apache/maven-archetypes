@@ -30,7 +30,7 @@ ${project.name}
 
  <<<${project.artifactId}>>> is an archetype which generates a sample Maven plugin's site:
 
-+----+
+----
 
 project
 |-- .mvn
@@ -49,7 +49,7 @@ project
         |   `-- markdown-velocity.md.vm
         `-- site.xml
 
-+----+
+----
 
  This archetype can be layered upon an existing Maven project.
 
@@ -57,8 +57,8 @@ project
 
  To generate a new project or update an existing project from this archetype, type:
 
-+----+
+----
 
 mvn archetype:generate -DarchetypeGroupId=${project.groupId} -DarchetypeArtifactId=${project.artifactId} -DarchetypeVersion=${project.version}
 
-+----+
+----
