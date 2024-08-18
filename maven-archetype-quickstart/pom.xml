@@ -33,7 +33,7 @@ under the License.
   <description>An archetype which contains a sample Maven project.</description>
 
   <properties>
-    <javaCompilerVersionDefault>8</javaCompilerVersionDefault>
+    <javaCompilerVersionDefault>17</javaCompilerVersionDefault>
     <junitVersionDefault>4.13.1</junitVersionDefault>
   </properties>
 
