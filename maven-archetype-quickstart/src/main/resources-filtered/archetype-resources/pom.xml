@@ -10,25 +10,40 @@
 #end
 #macro( junit $ver )
 #if ( $ver.startsWith("4.") )
+  <dependencies>
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>${ver}</version>
       <scope>test</scope>
     </dependency>
+  </dependencies>
 #elseif ( $ver.startsWith("5.") )
+  <dependencyManagement>
+    <dependencies>
+      <dependency>
+        <groupId>org.junit</groupId>
+        <artifactId>junit-bom</artifactId>
+        <version>${ver}</version>
+        <type>pom</type>
+        <scope>import</scope>
+      </dependency>
+    </dependencies>
+  </dependencyManagement>
+
+  <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
-      <version>${ver}</version>
       <scope>test</scope>
     </dependency>
+    <!-- Optionally: parameterized tests support -->
     <dependency>
       <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
-      <version>${ver}</version>
+      <artifactId>junit-jupiter-params</artifactId>
       <scope>test</scope>
     </dependency>
+  </dependencies>
 #end
 #end
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -48,9 +63,7 @@
 #compilerProperties( ${javaCompilerVersion} )
   </properties>
 
-  <dependencies>
 #junit( ${junitVersion} )
-  </dependencies>
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
