@@ -23,7 +23,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven.archetypes</groupId>
     <artifactId>maven-archetype-bundles</artifactId>
-    <version>1.5-SNAPSHOT</version>
+    <version>1.5</version>
   </parent>
 
   <artifactId>maven-archetype-quickstart</artifactId>
