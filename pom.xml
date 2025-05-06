@@ -75,7 +75,7 @@ under the License.
   <properties>
     <!-- additional plugins versions - not presents in parent -->
     <version.maven-ejb-plugin>3.2.1</version.maven-ejb-plugin>
-    <version.maven-archetype-plugin>3.2.0</version.maven-archetype-plugin>
+    <version.maven-archetype-plugin>3.3.1</version.maven-archetype-plugin>
 
     <maven.site.path>archetypes-archives/archetypes-LATEST</maven.site.path>
     <rat.skip>true</rat.skip>
