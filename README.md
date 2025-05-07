@@ -17,14 +17,13 @@
 Contributing to [Apache Maven Archetype Bundles](https://maven.apache.org/archetypes/)
 ======================
 
-[![ASF Jira](https://img.shields.io/endpoint?url=https%3A%2F%2Fmaven.apache.org%2Fbadges%2Fasf_jira-MARCHETYPES.json)][jira]
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)][license]
 [![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.archetypes/maven-archetype-quickstart.svg?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.maven.archetypes/maven-archetype-bundles)
 [![Jenkins Status](https://img.shields.io/jenkins/s/https/ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archetypes/job/master.svg)][build]
 [![Jenkins tests](https://img.shields.io/jenkins/t/https/ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archetypes/job/master.svg)][test-results]
 
 
-You have found a bug or you have an idea for a cool new feature? Contributing
+You have found a bug, or you have an idea for a cool new feature? Contributing
 code is a great way to give something back to the open source community. Before
 you dig right into the code, there are a few guidelines that we need
 contributors to follow so that we can have a chance of keeping on top of
@@ -33,7 +32,6 @@ things.
 Getting Started
 ---------------
 
-+ Make sure you have a [JIRA account](https://issues.apache.org/jira/).
 + Make sure you have a [GitHub account](https://github.com/signup/free).
 + If you're planning to implement a new feature, it makes sense to discuss your changes 
   on the [dev list][ml-list] first. 
@@ -59,15 +57,9 @@ There are some guidelines which will make applying PRs easier for us:
   + Create minimal diffs - disable on save actions like reformat source code or organize imports. 
     If you feel the source code should be reformatted, create a separate PR for this change.
   + Check for unnecessary whitespace with `git diff --check` before committing.
-+ Make sure your commit messages are in the proper format. Your commit message should contain the key of the JIRA issue.
-```
-[MARCHETYPES-XXX] Subject of the JIRA Ticket
- Optional supplemental description.
-```
 + Make sure you have added the necessary tests (JUnit/IT) for your changes.
-+ Run all the tests with `mvn -Prun-its verify` to assure nothing else was accidentally broken.
++ Run all the tests with `mvn verify` to assure nothing else was accidentally broken.
 + Submit a pull request to the repository in the Apache organization.
-+ Update your JIRA ticket and include a link to the pull request in the ticket.
 
 If you plan to contribute on a regular basis, please consider filing a [contributor license agreement][cla].
 
@@ -86,10 +78,11 @@ Additional Resources
 + [Contributor License Agreement][cla]
 + [General GitHub documentation](https://help.github.com/)
 + [GitHub pull request documentation](https://help.github.com/send-pull-requests/)
-+ [Apache Maven Twitter Account](https://twitter.com/ASFMavenProject)
-+ #Maven IRC channel on freenode.org
++ [Apache Maven X Account](https://x.com/ASFMavenProject)
++ [Apache Maven Bluesky Account](https://bsky.app/profile/maven.apache.org)
++ [Apache Maven Mastodon Account](https://mastodon.social/deck/@ASFMavenProject@fosstodon.org)
 
-[jira]: https://issues.apache.org/jira/projects/MARCHETYPES/
+
 [license]: https://www.apache.org/licenses/LICENSE-2.0
 [ml-list]: http://maven.apache.org/mailing-lists.html
 [code-style]: https://maven.apache.org/developers/conventions/code.html
