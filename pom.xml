@@ -23,7 +23,7 @@ under the License.
   <parent>
     <groupId>org.apache.maven</groupId>
     <artifactId>maven-parent</artifactId>
-    <version>43</version>
+    <version>45</version>
     <relativePath />
   </parent>
 
@@ -76,6 +76,7 @@ under the License.
     <!-- additional plugins versions - not presents in parent -->
     <version.maven-ejb-plugin>3.2.1</version.maven-ejb-plugin>
     <version.maven-archetype-plugin>3.4.1</version.maven-archetype-plugin>
+    <version.maven-invoker-plugin>3.9.1</version.maven-invoker-plugin>
 
     <maven.site.path>archetypes-archives/archetypes-LATEST</maven.site.path>
     <rat.skip>true</rat.skip>
