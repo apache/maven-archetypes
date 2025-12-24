@@ -1,3 +1,5 @@
+import groovy.xml.XmlParser
+
 File descriptorFile = new File( basedir, "project/basic-maven-plugin/target/classes/META-INF/maven/plugin.xml" );
 assert descriptorFile.isFile()
 
