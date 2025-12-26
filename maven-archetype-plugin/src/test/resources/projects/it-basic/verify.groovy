@@ -5,6 +5,8 @@ assert descriptorFile.isFile()
 
 def pluginDescriptor = new XmlParser().parse( descriptorFile );
 
+assert pluginDescriptor.goalPrefix.text() == 'basic'
+
 def mojo = pluginDescriptor.mojos.mojo.findAll{ it.goal.text() == "touch" }[0]
 
 assert mojo.goal.text() == 'touch'
@@ -41,4 +43,3 @@ assert testFile.exists()
 
 testFile = new File( basedir, "project/basic-maven-plugin/src/it/settings.xml" );
 assert testFile.exists()
-
