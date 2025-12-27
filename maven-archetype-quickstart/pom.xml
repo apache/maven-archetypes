@@ -34,7 +34,7 @@ under the License.
 
   <properties>
     <javaCompilerVersionDefault>17</javaCompilerVersionDefault>
-    <junitVersionDefault>5.11.0</junitVersionDefault>
+    <junitVersionDefault>${versions.junit5}</junitVersionDefault>
   </properties>
 
   <build>
