@@ -18,7 +18,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-#elseif ( $ver.startsWith("5.") )
+#else
   <dependencyManagement>
     <dependencies>
       <dependency>
