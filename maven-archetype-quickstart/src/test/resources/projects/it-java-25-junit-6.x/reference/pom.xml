@@ -1,30 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-#macro( compilerProperties $javaCompilerVersionLocal )
-#set( $Double = 0.0 )
-#if ( $Double.valueOf($javaCompilerVersionLocal) > 8 )
-    <maven.compiler.release>${javaCompilerVersionLocal}</maven.compiler.release>
-#else
-    <maven.compiler.source>${javaCompilerVersionLocal}</maven.compiler.source>
-    <maven.compiler.target>${javaCompilerVersionLocal}</maven.compiler.target>
-#end
-#end
-#macro( junit $ver )
-#if ( $ver.startsWith("4.") )
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>${ver}</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
-#else
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <groupId>archetype.it</groupId>
+  <artifactId>java-25-junit-6x-quickstart</artifactId>
+  <version>0.1-SNAPSHOT</version>
+
+  <name>java-25-junit-6x-quickstart</name>
+  <!-- FIXME change it to the project's website -->
+  <url>http://www.example.com</url>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>25</maven.compiler.release>
+  </properties>
+
   <dependencyManagement>
     <dependencies>
       <dependency>
         <groupId>org.junit</groupId>
         <artifactId>junit-bom</artifactId>
-        <version>${ver}</version>
+        <version>6.0.3</version>
         <type>pom</type>
         <scope>import</scope>
       </dependency>
@@ -44,26 +41,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-#end
-#end
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-
-  <groupId>\${groupId}</groupId>
-  <artifactId>\${artifactId}</artifactId>
-  <version>\${version}</version>
-
-  <name>\${artifactId}</name>
-  <!-- FIXME change it to the project's website -->
-  <url>http://www.example.com</url>
-
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-#compilerProperties( ${javaCompilerVersion} )
-  </properties>
-
-#junit( ${junitVersion} )
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
