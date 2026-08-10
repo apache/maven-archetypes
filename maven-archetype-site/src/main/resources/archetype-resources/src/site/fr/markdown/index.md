@@ -1,17 +1,14 @@
- -----
- Le Site
- -----
- L'équipe Maven
- -----
+---
+title: Le Site
+author:
+  - L'équipe Maven
+---
 
-Site Maven pour votre projet
+# Site Maven pour votre projet
 
- Félicitations!  Si vous regardez cette page alors vous avez
- généré avec succès un modèle de site en utilisant l'archétype
- de site et vous avez lancé :
+Félicitations! Si vous regardez cette page alors vous avez généré avec succès un modèle de site en utilisant l'archétype de site et vous avez lancé :
 
-+-----+
+```bash
 
 mvn site
-
-+-----+
+```
