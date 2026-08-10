@@ -1,17 +1,15 @@
- ------
- SMTP Authentication
- ------
- Allan Ramirez
- ------
- 2005-10-16
- ------
+---
+title: SMTP Authentication
+author:
+  - Allan Ramirez
+date: 2005-10-16
+---
 
-SMTP Authentication
+# SMTP Authentication
 
-  If the SMTP host needs authentication, you can provide your username and password
-  in the <<<\<configuration\>>>> section:
+If the SMTP host needs authentication, you can provide your username and password in the `<configuration>` section:
 
--------------------
+```
 <project>
   ...
   <build>
@@ -31,4 +29,4 @@ SMTP Authentication
   </build>
   ...
 </project>
--------------------
+```
