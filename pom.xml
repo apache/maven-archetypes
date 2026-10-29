@@ -112,6 +112,7 @@ under the License.
           <version>${version.maven-archetype-plugin}</version>
           <configuration>
             <ignoreEOLStyle>true</ignoreEOLStyle>
+            <streamLogs>false</streamLogs>
           </configuration>
         </plugin>
         <plugin>
