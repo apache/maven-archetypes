@@ -5,3 +5,6 @@ for (String page in ['index.html', 'markdown.html', 'markdown-velocity.html', 'p
 // Velocity reads a Markdown "##" heading as a comment, so the page only keeps its heading when the template escapes it
 String velocity = new File(site, 'markdown-velocity.html').text
 assert velocity.contains('<h2>Markdown Format with Velocity works</h2>') : 'the Velocity page lost its heading'
+// the site name comes from the artifactId, not from a literal placeholder
+String title = (new File(site, 'index.html').text =~ /<title>([^<]*)<\/title>/)[0][1]
+assert title.endsWith('basic-site-simple') : 'index.html has title "' + title + '"'
