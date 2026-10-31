@@ -63,6 +63,24 @@ There are some guidelines which will make applying PRs easier for us:
 
 If you plan to contribute on a regular basis, please consider filing a [contributor license agreement][cla].
 
+Testing the Archetypes
+----------------------
+
+Every archetype module is tested by its `maven-archetype:integration-test` goal, which `mvn verify`
+runs. Each directory `src/test/resources/projects/<name>` is one test: it generates a project from the
+freshly built archetype and runs the goals in its `goal.txt` on the result.
+
++ `archetype.properties` holds the generation parameters.
++ `reference/` holds the expected generated project: every generated file needs a counterpart there,
+  and its content must match.
++ `verify.groovy` checks the build result. `basedir` is the test directory, and the generated project
+  is in `project/<artifactId>` below it.
+
+To test one archetype, run `mvn -B verify -pl maven-archetype-quickstart`. Add `-T2` to build modules in parallel;
+the archetype plugin is not marked thread-safe, so Maven warns about it.
+The generated projects, with their `build.log`, stay in `<module>/target/test-classes/projects/<name>/project`.
+Use `-Darchetype.test.skip=true` to package the archetypes without running the tests.
+
 Making Trivial Changes
 ----------------------
 
