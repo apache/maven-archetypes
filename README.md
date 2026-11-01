@@ -67,14 +67,10 @@ Testing the Archetypes
 ----------------------
 
 Every archetype module is tested by its `maven-archetype:integration-test` goal, which `mvn verify`
-runs. Each directory `src/test/resources/projects/<name>` is one test: it generates a project from the
-freshly built archetype and runs the goals in its `goal.txt` on the result.
-
-+ `archetype.properties` holds the generation parameters.
-+ `reference/` holds the expected generated project: every generated file needs a counterpart there,
-  and its content must match.
-+ `verify.groovy` checks the build result. `basedir` is the test directory, and the generated project
-  is in `project/<artifactId>` below it.
+runs. Each directory `src/test/resources/projects/<name>` is one test; the
+[Testing Archetypes guide](https://maven.apache.org/guides/mini/guide-testing-archetypes.html) describes
+its files (`archetype.properties`, `goal.txt`, `reference/`, `verify.groovy`) and how the goal compares
+the generated project with `reference/`.
 
 To test one archetype, run `mvn -B verify -pl maven-archetype-quickstart`. Add `-T2` to build modules in parallel;
 the archetype plugin is not marked thread-safe, so Maven warns about it.
