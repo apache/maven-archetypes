@@ -40,8 +40,8 @@ under the License.
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-archetype-plugin</artifactId>
         <configuration>
-          <settingsFile>${project.basedir}/src/test/settings.xml</settingsFile>
-          <localRepositoryPath>${project.basedir}/target/local-repo</localRepositoryPath>
+          <settingsFile>${basedir}/src/test/settings.xml</settingsFile>
+          <localRepositoryPath>${basedir}/target/local-repo</localRepositoryPath>
         </configuration>
       </plugin>
     </plugins>
