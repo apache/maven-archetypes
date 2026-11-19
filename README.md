@@ -19,8 +19,7 @@ Contributing to [Apache Maven Archetype Bundles](https://maven.apache.org/archet
 
 [![Apache License, Version 2.0, January 2004](https://img.shields.io/github/license/apache/maven.svg?label=License)][license]
 [![Maven Central](https://img.shields.io/maven-central/v/org.apache.maven.archetypes/maven-archetype-quickstart.svg?label=Maven%20Central)](https://search.maven.org/artifact/org.apache.maven.archetypes/maven-archetype-bundles)
-[![Jenkins Status](https://img.shields.io/jenkins/s/https/ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archetypes/job/master.svg)][build]
-[![Jenkins tests](https://img.shields.io/jenkins/t/https/ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archetypes/job/master.svg)][test-results]
+[![Build Status](https://github.com/apache/maven-archetypes/actions/workflows/maven-verify.yml/badge.svg)][build]
 
 
 You have found a bug, or you have an idea for a cool new feature? Contributing
@@ -91,7 +90,7 @@ Additional Resources
 + [Apache Maven Archetype Bundles JIRA project page][jira]
 + [Contributor License Agreement][cla]
 + [General GitHub documentation](https://help.github.com/)
-+ [GitHub pull request documentation](https://help.github.com/send-pull-requests/)
++ [GitHub pull request documentation](https://docs.github.com/en/pull-requests/how-tos/create-pull-requests/creating-a-pull-request)
 + [Apache Maven X Account](https://x.com/ASFMavenProject)
 + [Apache Maven Bluesky Account](https://bsky.app/profile/maven.apache.org)
 + [Apache Maven Mastodon Account](https://mastodon.social/deck/@ASFMavenProject@fosstodon.org)
@@ -101,6 +100,5 @@ Additional Resources
 [ml-list]: http://maven.apache.org/mailing-lists.html
 [code-style]: https://maven.apache.org/developers/conventions/code.html
 [cla]: https://www.apache.org/licenses/#clas
-[maven-wiki]: https://cwiki.apache.org/confluence/display/MAVEN/Index
-[test-results]: https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archetypes/job/master/lastCompletedBuild/testReport/
-[build]: https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven-archetypes/job/master/
+[jira]: https://github.com/apache/maven-archetypes/issues
+[build]: https://github.com/apache/maven-archetypes/actions/workflows/maven-verify.yml
